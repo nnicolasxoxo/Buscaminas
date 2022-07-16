@@ -4,7 +4,7 @@ class Verificador:
         self.buscaminas=False
         self.matriz=''
     
-    def verificarTriqui(self):
+    def verificarbuscaminas(self):
         self.buscaminas=self.verificarFilas()
         
         if not self.buscaminas:
